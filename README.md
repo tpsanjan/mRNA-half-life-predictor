@@ -19,11 +19,12 @@ Aim: Analyze mRNA half-life dataset based on counts of sequence motifs
 # Global variables:
  minKeyLen = 3 & maxKeyLen = 8 ==> searches for sequence motifs that are b/w 3 to
                                    8 chars long <br>
+
  disc_threshold = 0.1 ==> a sequence motif (or more broadly, feature) would be
                            considered discriminative iff the difference b/w +ve and
                            -ve classes is at least 10%
 
- Edits: <br>
+ # Edits:
  v6 - classify a motif as useful (stable/unstable) based on its distribution in train-set <br>
  v5 - grid search for param tuning (max_features & min_samples_split) <br>
  v4 - CVfolds fixed and scatter plot <br>
