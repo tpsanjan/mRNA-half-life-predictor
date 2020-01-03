@@ -8,6 +8,7 @@ Aim: Analyze mRNA half-life dataset based on counts of sequence motifs
 
 # I/P:
  e_file - tab delimited file containing seq_id, tvals & [stdev]
+ 
  f_file - tab delimited file containing seq_id, 5' utr, cds, 3' utr
 
 # O/P:
