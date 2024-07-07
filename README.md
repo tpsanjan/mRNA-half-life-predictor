@@ -6,6 +6,9 @@ Author  : Sanjan TP Gupta (sgupta78@wisc.edu)
 Aim: Analyze mRNA half-life dataset based on counts of sequence motifs 
       in UTRs (minKeyLen to maxKeyLen, say 3-8 letters)
 
+For more info, please refer to "Genome-Wide Analysis of RNA Decay in the Cyanobacterium Synechococcus sp. Strain PCC 7002" published in mSystems Aug 2020
+PMID: 32753502 PMCID: PMC7406221 DOI: 10.1128/mSystems.00224-20
+
 # Inputs:
  e_file - tab delimited file containing seq_id, tvals & [stdev] <br>
  f_file - tab delimited file containing seq_id, 5' utr, cds, 3' utr
